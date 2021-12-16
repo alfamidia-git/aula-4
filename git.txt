@@ -1,9 +1,12 @@
 -> Configurar 
         git config --global user.name "Seu nome"
-        git config --global user-email "seuemail@email.com"
+        git config --global user.email "seuemail@email.com"
 
 -> Ver configuração 
         git config --list
+
+
+git log
 
 -> Inicializar um diretório com git
         git init
@@ -24,7 +27,7 @@
         git checkout NomeDaLinhaTemporal
 
 -> Mesclar a principal com outra 
-        git merge NomeDaLinhaTemporal
+        git merge linha2
 
 -> Mostrar o log
         git log
