@@ -1,0 +1,36 @@
+-> Configurar 
+        git config --global user.name "Seu nome"
+        git config --global user-email "seuemail@email.com"
+
+-> Ver configuração 
+        git config --list
+
+-> Inicializar um diretório com git
+        git init
+
+-> Adiciona um arquivo no índice 
+        git add .
+
+-> Salva as mudanças no repositório
+        git commit -m "Mensagem"
+
+-> Retorna os arquivos de trabalho 
+        git restore .
+
+-> Criar uma nova "linha temporal" (ramo)
+        git branch NomeDaLinhaTemporal
+
+-> Começar a trabalhar nessa nova "linha temporal"
+        git checkout NomeDaLinhaTemporal
+
+-> Mesclar a principal com outra 
+        git merge NomeDaLinhaTemporal
+
+-> Mostrar o log
+        git log
+
+-> Enviar 
+        git push ... 
+
+-> Buscar
+        git pull
